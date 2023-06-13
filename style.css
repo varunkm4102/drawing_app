@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 249, 248);
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+canvas{
+    border: 2px solid rebeccapurple;
+}
+.toolbox{
+    background-color: rebeccapurple;
+    width: 603px;
+    padding: 1rem;
+}
+.toolbox > * {
+    background-color: #ffff;
+    font-size: 2rem;
+    padding: .5rem;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.toolbox > *:last-child {
+    float: right;
+}
